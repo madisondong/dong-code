@@ -286,7 +286,8 @@ OPENAI_MODEL=qwen3-coder-plus
 6. **Generate examples** - create code and demonstrations
 7. **Review and refine** - use Dong Code for editing and improvement
 
-
+## Acknowledgments
+This project is based on [Google Gemini CLI](https://github.com/google-gemini/gemini-cli) and [Qwen Code](https://github.com/QwenLM/qwen-code). We acknowledge and appreciate the excellent work of the Gemini CLI team and Qwen Code team.
 
 ## 📄 License
 

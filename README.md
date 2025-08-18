@@ -1,17 +1,17 @@
-# Dong Code - AI-Powered Science Book Creation Tool
+# Dong Code - AI-Powered Professional Book Writing Assistant
 
 <div align="center">
 
 ![Dong Code Screenshot](./docs/assets/dong-screenshot.png)
 
 
-**AI-powered command-line tool for science book authors and developers**
+**AI-powered writing assistant for professional book authors**
 
-[Installation](#installation) • [Quick Start](#quick-start) • [Science Book Creation](#science-book-creation) • [Features](#key-features) • [Documentation](./docs/)
+[Installation](#installation) • [Quick Start](#quick-start) • [Book Writing Workflows](#book-writing-workflows) • [Features](#key-features) • [Documentation](./docs/)
 
 </div>
 
-Dong Code is a powerful command-line AI workflow tool specifically designed to help science book authors and developers create high-quality content. It provides intelligent assistance for research, writing, code generation, and content organization.
+Dong Code is a specialized AI writing assistant designed to help professional authors create high-quality, well-structured books that meet publishing standards. Whether you're writing educational textbooks, technical manuals, research-based books, or creative non-fiction, Dong Code provides intelligent assistance for every stage of the book creation process.
 
 ## 🚀 Installation
 
@@ -45,74 +45,91 @@ npm install -g @madisondong/dong-code@latest
 dong --version
 ```
 
-## 🎯 Science Book Creation Guide
+## 🎯 Professional Book Writing Workflows
 
-Dong Code is specifically designed to help science book authors streamline their writing process. Here are comprehensive examples of how to use it for different aspects of science book creation:
+Dong Code is specifically designed to help professional authors streamline their writing process. Here are comprehensive examples of how to use it for different aspects of book creation:
 
-### 📚 Research and Content Planning
-
-```bash
-# Start Dong Code
-dong
-
-# Research assistance
-> Help me research the latest developments in quantum computing for my book chapter
-> Find key papers and studies on climate change impacts from the last 5 years
-> Create an outline for a chapter on machine learning fundamentals
-> Suggest experiments and demonstrations for a physics textbook
-```
-
-### 🔬 Scientific Content Writing
-
-```bash
-# Technical writing assistance
-> Write a clear explanation of photosynthesis for high school students
-> Create a step-by-step guide for a chemistry experiment
-> Help me explain complex mathematical concepts in simple terms
-> Generate code examples for a programming textbook
-```
-
-### 📊 Data Analysis and Visualization
-
-```bash
-# Data processing for your book
-> Analyze this dataset and create visualizations for my statistics chapter
-> Generate Python code to demonstrate statistical concepts
-> Create interactive examples for my data science book
-> Help me write code to simulate scientific phenomena
-```
-
-### 🔍 Code Generation for Educational Examples
-
-```bash
-# Educational programming examples
-> Create a Python script that demonstrates Newton's laws of motion
-> Generate interactive examples for teaching algorithms
-> Write code to visualize molecular structures
-> Create simulation code for ecological systems
-```
-
-### 📝 Documentation and References
-
-```bash
-# Academic writing support
-> Help me format citations in APA style
-> Create a bibliography from my research notes
-> Generate a glossary of scientific terms
-> Help me write clear learning objectives for each chapter
-```
-
-## 🛠️ Quick Start
+### 📚 Book Planning & Research
 
 ```bash
 # Start Dong Code
 dong
 
-# Example commands for science book authors
-> Help me outline a chapter on renewable energy
-> Create a Python script to demonstrate data analysis concepts
-> Write clear explanations of complex scientific theories
-> Generate interactive examples for my textbook
+# Book planning assistance
+> Help me plan a comprehensive outline for my book on [topic]
+> Research the current market for books in [genre/field]
+> Create a detailed chapter structure with learning objectives
+> Identify key themes and concepts to cover in my book
+> Analyze competing books in my field and find gaps to fill
+```
+
+### ✍️ Content Development & Writing
+
+```bash
+# Professional writing assistance
+> Write a compelling introduction for my chapter on [topic]
+> Help me explain [complex concept] in clear, engaging language
+> Create a step-by-step guide for [process/technique]
+> Develop case studies and real-world examples for [concept]
+> Write clear learning objectives for each chapter
+```
+
+### 🔬 Research & Fact-Checking
+
+```bash
+# Research and verification
+> Find recent studies and papers on [topic] for my literature review
+> Verify the accuracy of [claim/statistic] with reliable sources
+> Create a comprehensive bibliography for my research
+> Identify gaps in current research that my book could address
+> Help me integrate current trends and developments into my content
+```
+
+### 📊 Technical Content & Code Examples
+
+```bash
+# Technical writing and code generation
+> Create educational code examples that demonstrate [concept]
+> Write clear explanations of [technical process] for [audience level]
+> Generate interactive examples and exercises for my technical book
+> Design hands-on projects that reinforce key learning objectives
+> Create visualizations and diagrams to explain complex concepts
+```
+
+### 📝 Editing & Refinement
+
+```bash
+# Professional editing support
+> Review this chapter for clarity and engagement
+> Help me improve the flow and transitions between sections
+> Check for consistency in terminology and style throughout
+> Identify opportunities to increase reader engagement
+> Ensure my content meets professional publishing standards
+```
+
+### 📖 Publishing Preparation
+
+```bash
+# Publishing and submission support
+> Format my manuscript according to [publisher] guidelines
+> Create a compelling book proposal and marketing materials
+> Help me prepare submission materials for publishers
+> Review my content for accessibility and diverse audiences
+> Create supplementary materials (glossary, index, appendices)
+```
+
+## 🛠️ Quick Start for Authors
+
+```bash
+# Start Dong Code
+dong
+
+# Example commands for professional authors
+> Help me outline my book on [your topic]
+> Create a compelling introduction for my first chapter
+> Research current trends in [your field] for my book
+> Write clear learning objectives for my target audience
+> Generate engaging examples that illustrate my key concepts
 ```
 
 ### Session Management
@@ -154,137 +171,156 @@ OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 OPENAI_MODEL=qwen3-coder-plus
 ```
 
-## 📖 Science Book Creation Examples
+## 📖 Professional Book Writing Examples
 
-### 1. Research and Literature Review
-
-```text
-> I'm writing a chapter on artificial intelligence in healthcare. Help me:
-> - Find recent breakthroughs in medical AI
-> - Identify key researchers and institutions
-> - Create a timeline of important developments
-> - Suggest case studies to include
-```
-
-### 2. Technical Content Development
+### 1. Book Planning & Market Research
 
 ```text
-> For my physics textbook, help me:
-> - Write clear explanations of quantum mechanics concepts
-> - Create step-by-step problem-solving examples
-> - Generate code to simulate physical phenomena
-> - Design hands-on experiments for students
+> I'm writing a book on [topic]. Help me:
+> - Research the current market and identify my target audience
+> - Create a comprehensive outline with clear learning objectives
+> - Analyze competing books and find unique positioning opportunities
+> - Develop a compelling value proposition for my book
 ```
 
-### 3. Code Examples and Demonstrations
+### 2. Content Development & Structure
 
 ```text
-> Create educational code examples for my computer science book:
-> - Python scripts demonstrating algorithms
-> - Interactive data visualization examples
-> - Machine learning tutorials with real datasets
-> - Web development projects for beginners
+> For my book on [subject], help me:
+> - Write clear, engaging chapter introductions
+> - Create logical progression from basic to advanced concepts
+> - Develop compelling examples and case studies
+> - Design interactive elements and exercises for readers
 ```
 
-### 4. Assessment and Learning Materials
+### 3. Research & Academic Writing
 
 ```text
-> Help me create educational materials:
-> - Multiple choice questions for each chapter
-> - Programming exercises with solutions
-> - Lab manual instructions
-> - Study guides and review materials
+> Help me with the research for my book:
+> - Conduct a comprehensive literature review on [topic]
+> - Find current studies and developments in [field]
+> - Create proper citations and bibliographic references
+> - Verify facts and claims with reliable sources
 ```
 
-## 🎨 Advanced Features for Authors
+### 4. Technical Content & Educational Materials
 
-### Content Organization
+```text
+> Create educational content for my technical book:
+> - Write clear explanations of complex concepts
+> - Generate code examples and demonstrations
+> - Design hands-on exercises and projects
+> - Create assessment materials and learning objectives
+```
+
+## 🎨 Advanced Features for Professional Authors
+
+### Content Organization & Planning
 
 ```bash
-# Project structure management
-> Help me organize my book chapters and sections
-> Create a content outline with learning objectives
-> Generate a table of contents with proper hierarchy
-> Plan the flow of concepts from basic to advanced
+# Professional book structure
+> Help me organize my book with proper chapter flow and progression
+> Create detailed outlines with learning objectives for each section
+> Design a table of contents that guides readers through the material
+> Plan the integration of examples, exercises, and supplementary materials
 ```
 
-### Code Documentation
+### Writing Enhancement & Style
 
 ```bash
-# Educational code documentation
-> Add detailed comments to this code example
-> Create step-by-step explanations for complex algorithms
-> Generate user-friendly error messages
-> Write installation and setup instructions
+# Professional writing improvement
+> Analyze and improve my writing style for my target audience
+> Enhance clarity and readability of complex explanations
+> Create engaging transitions between ideas and sections
+> Develop a consistent voice and tone throughout the book
 ```
 
-### Interactive Content
+### Publishing & Market Preparation
 
 ```bash
-# Create engaging learning materials
-> Design interactive quizzes for my online textbook
-> Generate code that students can modify and experiment with
-> Create visualizations that explain complex concepts
-> Develop hands-on projects for practical learning
+# Publishing readiness
+> Format my manuscript according to publisher requirements
+> Create compelling book proposals and marketing materials
+> Prepare submission packages for different publishing platforms
+> Develop author bio, book description, and promotional content
 ```
 
-## 🔧 Development Workflow
+## 🔧 Author-Specific Workflows
 
-### Code Generation
+### Book Proposal Development
 
 ```bash
-# Generate educational code
-> Create a Python class for teaching object-oriented programming
-> Write a simulation of the solar system for astronomy students
-> Generate code to demonstrate statistical analysis
-> Create interactive web applications for learning
+# Professional book proposals
+> Help me create a compelling book proposal for [publisher/agent]
+> Develop a detailed chapter outline with sample content
+> Write an engaging author bio and credentials
+> Create market analysis and competitive positioning
 ```
 
-### Testing and Validation
+### Content Quality Assurance
 
 ```bash
-# Ensure code quality
-> Write unit tests for my educational code examples
-> Validate that my code examples work correctly
-> Check for potential errors in my demonstrations
-> Ensure my code follows best practices for teaching
+# Quality control and improvement
+> Review my content for accuracy, clarity, and engagement
+> Check for consistency in terminology and style
+> Identify areas that need additional research or clarification
+> Ensure my content meets professional publishing standards
 ```
 
-## 📋 Popular Commands for Science Authors
+### Reader Engagement & Accessibility
+
+```bash
+# Audience-focused content
+> Design content that engages diverse audiences
+> Create accessible explanations for different learning styles
+> Develop interactive elements that enhance reader experience
+> Ensure content is inclusive and culturally sensitive
+```
+
+## 📋 Popular Commands for Professional Authors
+
+### Book Planning
+```text
+> Create a comprehensive outline for my book on [topic]
+> Research the market and identify my target audience
+> Develop learning objectives for each chapter
+> Plan the progression of concepts from basic to advanced
+```
 
 ### Content Creation
 ```text
-> Write an introduction to [scientific topic] for [audience level]
-> Create a hands-on experiment for teaching [concept]
-> Generate code examples demonstrating [scientific principle]
-> Design a lesson plan for [topic] with learning objectives
+> Write a compelling introduction for [chapter/topic]
+> Create engaging examples that illustrate [concept]
+> Develop case studies and real-world applications
+> Design interactive exercises for [learning objective]
 ```
 
-### Research and Analysis
+### Research & Verification
 ```text
-> Summarize recent research on [topic] for my book
-> Find key papers and studies related to [subject]
-> Create a literature review outline for [field]
-> Identify gaps in current understanding of [phenomenon]
+> Find current research and studies on [topic]
+> Verify the accuracy of [claim/statistic]
+> Create a comprehensive bibliography
+> Identify gaps in current understanding
 ```
 
-### Educational Design
+### Publishing Preparation
 ```text
-> Design assessment questions for [learning objective]
-> Create a progression of concepts from basic to advanced
-> Generate real-world applications of [theory]
-> Develop interactive exercises for [skill development]
+> Format my manuscript for [publisher/platform]
+> Create a compelling book proposal
+> Develop marketing materials and author bio
+> Prepare submission materials
 ```
 
-## 🚀 Getting Started with Your Science Book
+## 🚀 Getting Started with Your Professional Book
 
 1. **Install Dong Code** using the installation instructions above
 2. **Set up authentication** with Qwen OAuth or API keys
-3. **Start with research** - use Dong Code to explore your topic
-4. **Create outlines** - get help organizing your content structure
-5. **Write content** - use AI assistance for clear explanations
-6. **Generate examples** - create code and demonstrations
-7. **Review and refine** - use Dong Code for editing and improvement
+3. **Start with planning** - use Dong Code to research your topic and plan your book
+4. **Create your outline** - get help organizing your content structure
+5. **Develop your content** - use AI assistance for clear, engaging writing
+6. **Research and verify** - ensure accuracy and current relevance
+7. **Edit and refine** - use Dong Code for professional editing and improvement
+8. **Prepare for publishing** - format and submit your work professionally
 
 ## Acknowledgments
 This project is based on [Google Gemini CLI](https://github.com/google-gemini/gemini-cli) and [Qwen Code](https://github.com/QwenLM/qwen-code). We acknowledge and appreciate the excellent work of the Gemini CLI team and Qwen Code team.
@@ -295,4 +331,4 @@ This project is based on [Google Gemini CLI](https://github.com/google-gemini/ge
 
 ---
 
-**Happy writing!** Dong Code is here to help you create amazing science books that inspire and educate the next generation of scientists and engineers.
+**Happy writing!** Dong Code is here to help you create professional, engaging books that educate, inspire, and succeed in the marketplace.

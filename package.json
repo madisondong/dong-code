@@ -1,16 +1,18 @@
 {
   "name": "@madisondong/dong-code",
   "version": "0.0.4",
-  "description": "AI-powered command-line tool for science book authors and developers",
+  "description": "AI-powered writing assistant for professional book authors",
   "keywords": [
     "ai",
     "cli",
-    "science",
-    "education",
     "book-writing",
+    "professional-writing",
+    "publishing",
+    "author-tools",
+    "writing-assistant",
+    "content-creation",
     "research",
-    "code-generation",
-    "content-creation"
+    "editing"
   ],
   "author": {
     "name": "Madison Dong",

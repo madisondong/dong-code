@@ -41,7 +41,7 @@ npm install -g .
 ### Alternative: Install from npm (if available)
 
 ```bash
-npm install -g @dong-code/dong-code@latest
+npm install -g @madisondong/dong-code@latest
 dong --version
 ```
 

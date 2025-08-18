@@ -1,5 +1,5 @@
 {
-  "name": "@dong-code/dong-code",
+  "name": "@madisondong/dong-code",
   "version": "0.0.4",
   "description": "AI-powered command-line tool for science book authors and developers",
   "keywords": [
@@ -69,6 +69,7 @@
     "telemetry": "node scripts/telemetry.js",
     "clean": "node scripts/clean.js"
   },
+  "main": "bundle/gemini.js",
   "bin": {
     "dong": "bundle/gemini.js"
   },

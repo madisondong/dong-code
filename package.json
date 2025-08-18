@@ -1,6 +1,27 @@
 {
   "name": "@dong-code/dong-code",
   "version": "0.0.4",
+  "description": "AI-powered command-line tool for science book authors and developers",
+  "keywords": [
+    "ai",
+    "cli",
+    "science",
+    "education",
+    "book-writing",
+    "research",
+    "code-generation",
+    "content-creation"
+  ],
+  "author": {
+    "name": "Madison Dong",
+    "email": "support@americansciencemedia.com",
+    "url": "https://github.com/madisondong"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/madisondong/dong-code#readme",
+  "bugs": {
+    "url": "https://github.com/madisondong/dong-code/issues"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
@@ -10,7 +31,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/donglm/dong-code.git"
+    "url": "git+https://github.com/madisondong/dong-code.git"
   },
   "config": {
     "sandboxImageUri": "ghcr.io/donglm/dong-code:0.0.4"
